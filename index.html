@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozetka_clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <header>
+        <div class="fixed">
+            <div class="margin3"><img src="https://content.rozetka.com.ua/mb_logo/image_site_light_theme/original/345645615.svg" width="240px" height="40px"/></div>
+            <div><p class="catalog">Каталог</p></div>
+            <div class="">
+                <div class="poshyk1">
+                    <img class="img1" src="data:image/png;base64,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" width="20px" height="20px"/>
+                    <p class="poshyc1">Я_шукаю...</p>
+                    <img class="img2" src="data:image/png;base64,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" width="20px" height="20px"/>
+                    <p class="poshyk2">Знайти</p>
+                </div>
+            </div>
+            <div class="margin2"><a href="https://rozetka.com.ua/ua/"><img src="https://i.pinimg.com/736x/d5/ee/2e/d5ee2e1573a459bd26b7cf8fdd9a7d72.jpg" width="40px" height="40px"/></div></a>
+            <div class="margin2"><a href="https://rozetka.com.ua/ua/"><img src="https://static.vecteezy.com/ti/vetor-gratis/p1/9759668-eps10-branco-carrinho-de-compras-linha-icone-isolado-em-fundo-preto-trolley-simbolo-em-um-simples-plano-moderno-estilo-para-seu-site-design-logo-pictograma-e-aplicativo-movel-vetor.jpg" width="40px" height="40px"/></div></a>
+        </div>
+        <div>
+        <div class="things_inform">
+            <div class="things">
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/computers-notebooks/c80253/">Ноутбуки та комп'ютери</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/telefony-tv-i-ehlektronika/c4627949/">Смартфони, ТВ і електроніка</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/game-zone/c80261/">Товари для геймерів</a></div>
+                <div class="other_things"><a class="href" href="https://bt.rozetka.com.ua/ua/">Побутова техніка</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/tovary-dlya-doma/c2394287/">Товари для дому</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/instrumenty-i-avtotovary/c4627858/">Інструменти та автотовари</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/santekhnika-i-remont/c4628418/">Сантехніка та ремонт</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/dacha-sad-ogorod/c2394297/">Дача, сад і город</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/sport-i-uvlecheniya/c4627893/">Спорт і захоплення</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/shoes_clothes/c1162030/">Одяг, взуття та прикраси</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/krasota-i-zdorovje/c4629305/">Краса та здоров’я</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/kids/c88468/">Дитячі товари</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/zootovary/c3520929/">Зоотовари</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/office-school-books/c4625734/">Офіс, школа, книги</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/alkoholnie-napitki-i-produkty/c4626923/">Алкогольні напої та продукти</a></div>
+                <div class="other_things"><a class="href" href="https://rozetka.com.ua/ua/bytovaya-himiya/c4429255/">Побутова хімія</a></div>
+            </div>
+            <div class="inform1">
+                <div class="other_thing"><a class="href" href="https://help.rozetka.com.ua/">Довідковий центр</a></div>
+            </div>
+            <div class="inform1">
+                <div class="other_thing"><a class="href1" href="https://t.me/Rozetka_helpBot?start=src=hc">Чат з ROZETKA</a></div>
+            </div>
+            <div class="inform1">
+                <div class="other_thing"><a class="href" href="https://rozetka.com.ua/ua/retail/krasyliv/">Магазини Rozetka</a></div>
+            </div>
+            <div class="inform2">
+                <div class="h2"><h2 class="">Інформація про компанію</h2></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/about/">Про нас</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/legal_terms/">Умови використання сайту</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/careers/">Вакансії</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/contacts/">Контакти</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/all-categories-goods/">Усі категорії</a></div>
+                <div class="other"><a class="other" href="https://rozetka.pl/ua/">ROZETKA.PL</a></div>
+            </div>
+            <div class="inform2">
+                <div class="h2"><h2 class="">Допомога</h2></div>
+                <div class="other"><a class="other" href="https://help.rozetka.com.ua/p/97-dostavka/">Доставка та оплата</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/credit/">Кредит</a></div>
+                <div class="other"><a class="other" href="https://help.rozetka.com.ua/p/111-harantiya-i-povernennya-tovaru/">Гарантія</a></div>
+                <div class="other"><a class="other" href="https://help.rozetka.com.ua/p/102-povernennya-tovaru/">Повернення товару</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/service-centers/">Сервісні центри</a></div>
+            </div>
+            <div class="inform2">
+                <div class="h2"><h2 class="">Сервіси</h2></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/loyalty/">Бонусний рахунок</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/certificates/">Подарункові сертифікати</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/obmin/">Rozetka Обмін</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/b2b/">Корпоративним клієнтам</a></div>
+            </div>
+            <div class="inform2">
+                <div class="h2"><h2 class="">Партнерам</h2></div>
+                <div class="other"><a class="other" href="https://seller.rozetka.com.ua/newseller/">Продавати на Розетці</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/partnership/">Співпраця з нами</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/pages/franchise/">Франчайзинг</a></div>
+                <div class="other"><a class="other" href="https://rozetka.com.ua/ua/news-articles-promotions/promotions/store_search/">Оренда приміщень</a></div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td colspan="2"><h1>Останні переглянуті товари</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/421473045/p421473045/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/415124005.jpg" height="170px"/><p class="name">Бездротові навушники Hoco EQ2 TWS Чорні</p><p class="price">378₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/366006645/p366006645/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/311151102.jpg" width="130px" height="170px"/><p class="name">Планшет Teclast M40 Pro 2023 (8/128) LTE (TL-102887)</p><p class="price">6 385₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/lenovo-zaam0132ua/p387814041/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/351627037.jpg" width="130px" height="170px"/><p class="name">Планшет Lenovo Tab M10 Plus (3rd Gen) 4/128 Wi-Fi Storm Grey ...</p><p class="price">8999₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/41556700/g41556700/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/224009737.jpg" width="130px" height="170px"/><p class="name">Планшет Apple iPad 10.2" 2021 Wi-Fi 64 GB Space Gray ...</p><p class="price">13 999₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/364146360/p364146360/"><img class="img" src="https://content.rozetka.com.ua/goods/images/preview/307369212.jpg" width="130px" height="130px"/><p class="name">Бездротові навушники Bluetooth гарнітура з мікрофоном</p><p class="price">599₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/apple-mtjv3ty-a/p395744181/"><img class="img" src="https://content.rozetka.com.ua/goods/images/preview/365137069.jpg" width="130px" height="170px"/><p class="name">Навушники Apple AirPods Pro with MagSafe Case USB-C</p><p class="price">11 499₴</p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h1>Більше товарів для вибору</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart-arm68613/p391499904/"><img class="img" src="https://content.rozetka.com.ua/goods/images/preview/357565471.jpg" width="130px" height="130px"/><p class="name">Чохол ArmorStandart Silicone Case with straps</p><p class="price">279₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart-arm68596/p392828199/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/359687768.jpg" width="130px" height="130px"/><p class="name">Чехол ArmorStandart Hang Case для Apple AirPods Pro 2 Lavender</p><p class="price">279₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart_arm56083/p200283919/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/preview/23185895.jpg" width="130px" height="130px"/><p class="name">Чохол Armorstandart Silicone Case для Apple Airpods Pro Transparent</p><p class="price">249₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart_arm55968/p186836791/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/22007042.jpg" width="130px" height="130px"/><p class="name">Чохол ArmorStandart Ultrathin Silicone Case для Apple AirPods Pro Mint Green</p><p class="price">200₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/becover_bc_704479/p166436656/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/20263972.jpg" width="130px" height="130px"/><p class="name">Чохол Silicon BeCover для Apple AirPods Pro Deep Blue</p><p class="price">179₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart-arm60309/p332325298/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/247680444.jpg" width="130px" height="130px"/><p class="name">Чохол ArmorStandart Hang Case для Apple AirPods 3 Dark Green</p><p class="price">249₴</p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h1>Pеклама</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/369099072/p369099072/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/316711567.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Hoco WB22 з карабіном для Apple AirPods 3 2021 темно-зелений</p><p class="price">298₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/394833906/p394833906/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/363414572.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Huawei FreeBuds Pro 2 чорний</p><p class="price">158₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/330735895/p330735895/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/244393766.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Huawei FreeBuds 4i жовтий</p><p class="price">158₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/390183144/p390183144/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/355830266.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Realme Buds T100 синій</p><p class="price">158₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/381053001/p381053001/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/357468848.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол для AirPods 1/2 з карабіном Marsala</p><p class="price">149₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/353632287/p353632287/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/285720875.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Apple AirPods чорний</p><p class="price">148₴</p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h1>Рекомендації</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187951/p398187951/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/369485365.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU dark blue</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187855/p398187855/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/369486577.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU red</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187861/p398187861/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/369486576.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU white</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187867/p398187867/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/369486581.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU black</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/381053001/p381053001/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/357468848.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол для AirPods 1/2 з карабіном Marsala</p><p class="price">149₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/353632287/p353632287/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/285720875.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Apple AirPods чорний</p><p class="price">148₴</p></a></td>
+            </tr>
+            <tr>
+                <td colspan="2"><h1>Бестселери</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/becover-bc_708952/p376340976/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/330123843.jpg" width="130px" height="170px"/><p class="name">Обкладинка BeCover Ultra Slim Origami для Apple iPad 10.9" (2022) Black</p><p class="price">499₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/406304613/p406304613/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/386876337.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на планшет Xiaomi Redmi Pad SE 11" black</p><p class="price">398₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/pixus-line/p427011938/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/424596437.jpg" width="130px" height="170px"/><p class="name">Обкладинка Pixus Line Grey</p><p class="price">499₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/airon-4822352781103/p410218089/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/391877620.jpg" width="130px" height="170px"/><p class="name">Обкладинка AIRON Premium для Samsung Galaxy Tab A9</p><p class="price">399₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart-arm59078/p313085242/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/202581133.jpg" width="130px" height="170px"/><p class="name">Обкладинка ArmorStandart Silicone Hooks для планшетів 10" Black</p><p class="price">499₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart_arm55900/p198708889/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/22988859.jpg" width="130px" height="170px"/><p class="name">Чохол-книжка Armorstandart Smart Case для iPad 10.2</p><p class="price">499₴</p></a></td>
+            </tr>
+                <td colspan="2"><h1>Більше товарів для вибору</h1></td>
+            </tr>
+            <tr>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/394833906/p394833906/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/363414572.jpg" width="130px" height="130px"/><p class="name">Силіконовий чохол Nik з карабіном для Huawei FreeBuds Pro 2 чорний</p><p class="price">158₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187861/p398187861/"><img class="img" src="https://content.rozetka.com.ua/goods/images/big/369486576.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU white</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/398187867/p398187867/"><img class="img" src="https://content1.rozetka.com.ua/goods/images/big/369486581.jpg" width="130px" height="170px"/><p class="name">Чохол 360 на Lenovo Tab M10 Plus 3rd Gen LTE TB128XU TB125FU black</p><p class="price">348₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/41556700/g41556700/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/224009737.jpg" width="130px" height="170px"/><p class="name">Планшет Apple iPad 10.2" 2021 Wi-Fi 64 GB Space Gray ...</p><p class="price">13 999₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/364146360/p364146360/"><img class="img" src="https://content.rozetka.com.ua/goods/images/preview/307369212.jpg" width="130px" height="170px"/><p class="name">Бездротові навушники Bluetooth гарнітура з мікрофоном</p><p class="price">599₴</p></a></td>
+                <td style="border-bottom: #d9d9d9; border-right: 2px solid #d9d9d9; height: 300px; width: 180px;"><a href="https://rozetka.com.ua/ua/armorstandart-arm59078/p313085242/"><img class="img" src="https://content2.rozetka.com.ua/goods/images/big/202581133.jpg" width="130px" height="170px"/><p class="name">Обкладинка ArmorStandart Silicone Hooks для планшетів 10" Black</p><p class="price">499₴</p></a></td>
+            </tr>
+        </table>  
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '.margin3',
+            duration: 1000,
+            delay: 500,
+            translateX: 10,
+            translateY: 15,
+            easing: 'linear',
+        })
+
+        anime({
+            targets: '.margin2',
+            duration: 2000,
+            delay: 0,
+            rotate: 360,
+            height: 40,
+            easing: 'linear',
+        })
+    </script>
+</body>
+</html>
